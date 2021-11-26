@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me-Ashish Chauhan</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+
+        background-color:darkseagreen;
+    }
+    .midlle {
+        display: block;
+        width: 25%;
+        margin: 12px auto;
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        display:inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color:blue;
+        padding:20px 10px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+       color:green;
+    }
+    P{
+        font-size: 25px; 
+             Color:darkgreen;
+             
+    }
+span a {
+  background-color: DodgerBlue;
+  border:solid;
+  color:darkgreen;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+ border-radius: 10px;
+ 
+  
+ 
+}
+span a:hover {
+  background-color: RoyalBlue;
+}
+.logo img{
+           
+            float: left;
+            width: 100px;
+        height: 100px;
+       
+            
+        }
+  
+</style> 
+
+<body>
+    <div class="logo">
+        <img src="image/logo 4.png">
+    </div><br>
+    <header class="header">
+        <div class="midlle">
+        <ul class="navbar">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="#" class="active">About me </a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+        </div>
+    </header><br>
+    <p>
+        I Feel Happy To Speak Few Line About Me.I am Ashish Chauhan,i am doing MCA(master Of Computer Application) From Future Institute Of Engineering & Technology Bareilly. Basically, I belong to Badaun(uttar Pradesh). I choose to move forward, Growing and Learning every day. my strength is my positive-thinking and self-motivation. in my leisure time, i like to teach my roommate & listening music & spend time in social networking.my short time goal is to get in a software company and long time goal is a successful person in life.<br>
+        Thank You....<br>
+       
+   <p align="center" >
+     Download Resume:<br>
+     <span><br>
+     <a href="Ashish Resume.rtf" download>download<span></span></a></span></p>
+    <script>
+        let button=document.querySelector("body a");
+        button.addEventListener("click",()=>{
+            const span+document.querySelector("a span");
+            button.style.paddingRight='10px';
+            span.style.visibility="visible";
+            setTimeout(()=>{
+                span.style.visibility="hidden";
+                button.style.paddingRight="0px";
+
+            })
+        })
+
+    </script>
+    </p>
+
+</body>
+</html>
